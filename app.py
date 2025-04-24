@@ -8,7 +8,9 @@ app = Flask(__name__)
 hospitals = [
     {"name": "General Hospital", "base_wait_time": random.randint(20, 100)},
     {"name": "City Medical Center", "base_wait_time": random.randint(20, 100)},
-    {"name": "Downtown ER", "base_wait_time": random.randint(20, 100)}
+    {"name": "Downtown ER", "base_wait_time": random.randint(20, 100)},
+    {"name": "HealthLink Clinic", "base_wait_time": random.randint(20, 100)},
+    {"name": "Community Children's Hospital", "base_wait_time": random.randint(20, 100)}
 ]
 
 # Function to simulate 20 reports and average them
